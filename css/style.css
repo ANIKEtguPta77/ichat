@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    
+    border: 4px solid #29b72936;
+    height: 50px;
+    width: 50px;
+    border-radius: 34px;
+    text-shadow: 8px 5px 8px red;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;;
+}
+
+nav h1{
+    margin-left: 12px;
+    font-size: 45px;
+    font-family: 'Poor Story', cursive;
+    color: white;
+    text-shadow: 3px 3px 2px #ff00008c;
+}
+
+body {
+    background-image: linear-gradient(#035a9f,white);
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    max-width: 55vw;
+    border:2px solid white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 60vh;
+    padding:33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    border-radius: 23px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.message{
+    background-color: black;
+    color:white;
+    width: 32%;
+    padding: 7px;
+    margin: 13px 2px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+
+.message1{
+    background-color: #566ec8;
+    color: white;
+    width: 31%;
+    padding: 2px;
+    margin: 7px 11px;
+    
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.left {
+    float:left;
+    clear:both;
+}
+
+.right {
+    float: right;
+    clear: both;
+
+}
+
+.center{
+    margin-left: 224px;
+    clear:both;
+}
+
+#send-container{
+    text-align: center;
+    max-width: 985px;
+    display: block;
+    margin:auto;
+    width:100%;
+}
+
+#messageinp{
+   width:65%;
+   background-color: black;
+   border:2px solid black;
+   font-family: 'Ubuntu', sans-serif;
+   border-radius: 6px;
+   height: 30px;
+   font-size:17px;
+   color: white;
+   
+}
+
+.btn{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 37px;
+    width: 73px;
+    height: 35px;
+}
+
+
+
+
